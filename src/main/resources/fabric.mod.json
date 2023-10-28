@@ -19,8 +19,8 @@
     "pumpkinhead.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=${loader_version}",
+    "fabricloader": ">=0.14.14",
     "fabric": "*",
-    "minecraft": "${minecraft_version}"
+    "minecraft": ">=1.16.5"
   }
 }
