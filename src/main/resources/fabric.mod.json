@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "pumpkinhead",
+  "version": "${version}",
+  "name": "PumpkinHead",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/cxx34/PumpkinHead"
+  },
+  "license": "MIT",
+  "icon": "assets/pumpkinhead/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.louis.pumpkinhead.PumpkinHead"
+    ]
+  },
+  "mixins": [
+    "pumpkinhead.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
