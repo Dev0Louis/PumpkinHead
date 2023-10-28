@@ -9,7 +9,6 @@
     "repo": "https://github.com/cxx34/PumpkinHead"
   },
   "license": "MIT",
-  "icon": "assets/pumpkinhead/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
